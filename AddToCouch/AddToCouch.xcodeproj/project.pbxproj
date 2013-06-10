@@ -1,0 +1,1272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0013231642398D004F2A37 /* SDSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0013221642398D004F2A37 /* SDSegmentedControl.m */; };
+		9B00132616423A11004F2A37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B00132516423A11004F2A37 /* QuartzCore.framework */; };
+		9B03A4E41639170000302E85 /* couch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B03A4E31639170000302E85 /* couch.png */; };
+		9B12093E16613E38007D9073 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B12093D16613E38007D9073 /* CoreImage.framework */; };
+		9B12094016613E46007D9073 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B12093F16613E46007D9073 /* Accelerate.framework */; };
+		9B12094416614AE3007D9073 /* FinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B12094216614AE3007D9073 /* FinderViewController.m */; };
+		9B12094516614AE3007D9073 /* FinderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B12094316614AE3007D9073 /* FinderViewController.xib */; };
+		9B232037166AD04C003B1B34 /* GMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B232027166AD04C003B1B34 /* GMGridView.m */; };
+		9B232038166AD04C003B1B34 /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B23202D166AD04C003B1B34 /* GMGridViewCell.m */; };
+		9B232039166AD04C003B1B34 /* GMGridViewLayoutStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B23202F166AD04C003B1B34 /* GMGridViewLayoutStrategies.m */; };
+		9B23203A166AD04C003B1B34 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B232031166AD04C003B1B34 /* UIGestureRecognizer+GMGridViewAdditions.m */; };
+		9B23203B166AD04C003B1B34 /* UIView+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B232033166AD04C003B1B34 /* UIView+GMGridViewAdditions.m */; };
+		9B23204A166AD152003B1B34 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B232041166AD152003B1B34 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9B23204B166AD152003B1B34 /* LBYouTubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B232045166AD152003B1B34 /* LBYouTubeExtractor.m */; };
+		9B23204C166AD152003B1B34 /* LBYouTubePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B232047166AD152003B1B34 /* LBYouTubePlayerController.m */; };
+		9B23204D166AD152003B1B34 /* LBYouTubePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B232049166AD152003B1B34 /* LBYouTubePlayerViewController.m */; };
+		9B232051166AD1BD003B1B34 /* eye_inv.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B23204E166AD1BD003B1B34 /* eye_inv.png */; };
+		9B232052166AD1BD003B1B34 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B23204F166AD1BD003B1B34 /* eye.png */; };
+		9B309E9C1486F9BB00E243A4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B309E9B1486F9BB00E243A4 /* MediaPlayer.framework */; };
+		9B309EBC1486FC6000E243A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B309EBB1486FC6000E243A4 /* CFNetwork.framework */; };
+		9B309ECA1486FD5100E243A4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B309EC91486FD5100E243A4 /* SystemConfiguration.framework */; };
+		9B309ECC1486FD6100E243A4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B309ECB1486FD6100E243A4 /* MobileCoreServices.framework */; };
+		9B309ECE1486FD7100E243A4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B309ECD1486FD7100E243A4 /* libz.dylib */; };
+		9B57B15C166DEC82002ED148 /* profile_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B57B15B166DEC82002ED148 /* profile_settings.png */; };
+		9B635B5516E444220014285F /* add_to_queue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B635B5316E444220014285F /* add_to_queue.png */; };
+		9B635B5616E444220014285F /* add_to_queue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B635B5416E444220014285F /* add_to_queue@2x.png */; };
+		9B6D138816AE3D1C00EB11AD /* TwitterSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D138716AE3D1C00EB11AD /* TwitterSettings.m */; };
+		9B6D138A16AE3E9100EB11AD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6D138916AE3E9100EB11AD /* Social.framework */; };
+		9B7316F716BA28E1003B5D46 /* minitweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7316F316BA28E1003B5D46 /* minitweet.png */; };
+		9B7316F816BA28E1003B5D46 /* minitweet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7316F416BA28E1003B5D46 /* minitweet@2x.png */; };
+		9B7316F916BA28E1003B5D46 /* watched_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7316F516BA28E1003B5D46 /* watched_icon.png */; };
+		9B7316FA16BA28E1003B5D46 /* watched_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7316F616BA28E1003B5D46 /* watched_icon@2x.png */; };
+		9B77C50F16618FA400D1B5D7 /* SlidingTabsTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B77C50C16618FA400D1B5D7 /* SlidingTabsTab.m */; };
+		9B77C51016618FA400D1B5D7 /* SlidingTabsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B77C50E16618FA400D1B5D7 /* SlidingTabsControl.m */; };
+		9B7ED6AA167067BA00D1B18A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7ED6A9167067BA00D1B18A /* Accounts.framework */; };
+		9B7ED6AC167067C400D1B18A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7ED6AB167067C400D1B18A /* AVFoundation.framework */; };
+		9B7ED6AE167067CC00D1B18A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7ED6AD167067CC00D1B18A /* Twitter.framework */; };
+		9B7ED6B01670706900D1B18A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7ED6AF1670706900D1B18A /* MessageUI.framework */; };
+		9B7F3B4016EB06E5001F0F16 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F3B3E16EB06E5001F0F16 /* MainStoryboard_iPhone.storyboard */; };
+		9B7F3B4216EB1273001F0F16 /* FinderViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F3B4116EB1273001F0F16 /* FinderViewController~iphone.xib */; };
+		9B82F5BC16C8613800547889 /* couch-cushion-green-72px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5BB16C8613800547889 /* couch-cushion-green-72px.png */; };
+		9B82F5BE16C8613C00547889 /* couch-cushion-green-144px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5BD16C8613C00547889 /* couch-cushion-green-144px.png */; };
+		9B82F5BF16C8614300547889 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B03A4DB163916DD00302E85 /* Default-Portrait~ipad.png */; };
+		9B82F5C016C8614800547889 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B03A4DD163916E100302E85 /* Default-Portrait@2x~ipad.png */; };
+		9B82F5C116C8614C00547889 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B03A4DF163916E300302E85 /* Default-Landscape~ipad.png */; };
+		9B82F5C216C8615100547889 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B03A4E1163916E600302E85 /* Default-Landscape@2x~ipad.png */; };
+		9B82F5C616C8727400547889 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5C316C8727400547889 /* SVProgressHUD.bundle */; };
+		9B82F5C716C8727400547889 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82F5C516C8727400547889 /* SVProgressHUD.m */; };
+		9B82F5CA16C8B08300547889 /* more_videos.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5C816C8B08300547889 /* more_videos.png */; };
+		9B82F5CB16C8B08300547889 /* more_videos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5C916C8B08300547889 /* more_videos@2x.png */; };
+		9B82F5D216C8B0FC00547889 /* current_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5CC16C8B0FC00547889 /* current_active@2x.png */; };
+		9B82F5D316C8B0FC00547889 /* current_inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5CD16C8B0FC00547889 /* current_inactive@2x.png */; };
+		9B82F5D416C8B0FC00547889 /* profile_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5CE16C8B0FC00547889 /* profile_active@2x.png */; };
+		9B82F5D516C8B0FC00547889 /* profile_inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5CF16C8B0FC00547889 /* profile_inactive@2x.png */; };
+		9B82F5D616C8B0FC00547889 /* queue_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5D016C8B0FC00547889 /* queue_active@2x.png */; };
+		9B82F5D716C8B0FC00547889 /* queue_inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82F5D116C8B0FC00547889 /* queue_inactive@2x.png */; };
+		9B8FEDFC1484B82500C1EF0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8FEDFB1484B82500C1EF0E /* UIKit.framework */; };
+		9B8FEDFE1484B82500C1EF0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8FEDFD1484B82500C1EF0E /* Foundation.framework */; };
+		9B8FEE001484B82500C1EF0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8FEDFF1484B82500C1EF0E /* CoreGraphics.framework */; };
+		9B8FEE061484B82500C1EF0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B8FEE041484B82500C1EF0E /* InfoPlist.strings */; };
+		9B8FEE081484B82500C1EF0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FEE071484B82500C1EF0E /* main.m */; };
+		9B8FEE0C1484B82500C1EF0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FEE0B1484B82500C1EF0E /* AppDelegate.m */; };
+		9B8FEE121484B82500C1EF0E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8FEE101484B82500C1EF0E /* MainStoryboard_iPad.storyboard */; };
+		9B8FEE151484B82500C1EF0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8FEE141484B82500C1EF0E /* ViewController.m */; };
+		9B8FEE1C1484B89000C1EF0E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8FEE1B1484B89000C1EF0E /* icon.png */; };
+		9B8FEE1E1484B89A00C1EF0E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8FEE1D1484B89A00C1EF0E /* Default.png */; };
+		9BA8782416756BD300930936 /* couch-cushion-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA8782316756BD300930936 /* couch-cushion-green.png */; };
+		9BA8782616756D7900930936 /* couch-cushion-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA8782516756D7900930936 /* couch-cushion-green.png */; };
+		9BA8782816756DC800930936 /* couch-cushion-green_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA8782716756DC800930936 /* couch-cushion-green_icon@2x.png */; };
+		9BA8782A16756E8D00930936 /* couch-cushion-green_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA8782916756E8D00930936 /* couch-cushion-green_72.png */; };
+		9BC640CB16B5A72F00344210 /* twitter4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC640CA16B5A72F00344210 /* twitter4.png */; };
+		9BC640CD16B5AB4900344210 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC640CC16B5AB4900344210 /* Twitter.png */; };
+		9BC640CF16B5AC1500344210 /* twitter_newbird_boxed_whiteonblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC640CE16B5AC1500344210 /* twitter_newbird_boxed_whiteonblue.png */; };
+		9BC640D116B5ADBF00344210 /* jigo-demo-icon-rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC640D016B5ADBF00344210 /* jigo-demo-icon-rocket.png */; };
+		9BCECB34166DE192009C83AD /* a2c_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB14166DE192009C83AD /* a2c_logo.png */; };
+		9BCECB36166DE192009C83AD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB16166DE192009C83AD /* background.png */; };
+		9BCECB37166DE192009C83AD /* bottom_bar_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB17166DE192009C83AD /* bottom_bar_black.png */; };
+		9BCECB38166DE192009C83AD /* bottom_fade.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB18166DE192009C83AD /* bottom_fade.png */; };
+		9BCECB39166DE192009C83AD /* couch_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB19166DE192009C83AD /* couch_icon.png */; };
+		9BCECB3A166DE192009C83AD /* couch_ipad_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB1A166DE192009C83AD /* couch_ipad_icon.png */; };
+		9BCECB3B166DE192009C83AD /* couch_orig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB1B166DE192009C83AD /* couch_orig.png */; };
+		9BCECB3C166DE192009C83AD /* couch_ret.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB1C166DE192009C83AD /* couch_ret.png */; };
+		9BCECB3D166DE192009C83AD /* couch_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB1D166DE192009C83AD /* couch_small.png */; };
+		9BCECB3E166DE192009C83AD /* couch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB1E166DE192009C83AD /* couch.png */; };
+		9BCECB3F166DE192009C83AD /* crosshatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB1F166DE192009C83AD /* crosshatch.png */; };
+		9BCECB40166DE192009C83AD /* current_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB20166DE192009C83AD /* current_active.png */; };
+		9BCECB41166DE192009C83AD /* current_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB21166DE192009C83AD /* current_inactive.png */; };
+		9BCECB42166DE192009C83AD /* FutureFood_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB22166DE192009C83AD /* FutureFood_001.png */; };
+		9BCECB43166DE192009C83AD /* icon_right_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB23166DE192009C83AD /* icon_right_divider.png */; };
+		9BCECB44166DE192009C83AD /* id_card_horizontal_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB24166DE192009C83AD /* id_card_horizontal_divider.png */; };
+		9BCECB45166DE192009C83AD /* id_card_settings_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB25166DE192009C83AD /* id_card_settings_active.png */; };
+		9BCECB46166DE192009C83AD /* id_card_settings_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB26166DE192009C83AD /* id_card_settings_inactive.png */; };
+		9BCECB47166DE192009C83AD /* id_card_vertical_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB27166DE192009C83AD /* id_card_vertical_divider.png */; };
+		9BCECB48166DE192009C83AD /* idcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB28166DE192009C83AD /* idcard.png */; };
+		9BCECB49166DE192009C83AD /* inplay2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB29166DE192009C83AD /* inplay2.png */; };
+		9BCECB4A166DE192009C83AD /* profile_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB2A166DE192009C83AD /* profile_active.png */; };
+		9BCECB4B166DE192009C83AD /* profile_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB2B166DE192009C83AD /* profile_inactive.png */; };
+		9BCECB4C166DE192009C83AD /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB2C166DE192009C83AD /* profile.png */; };
+		9BCECB4D166DE192009C83AD /* queue_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB2D166DE192009C83AD /* queue_active.png */; };
+		9BCECB4E166DE192009C83AD /* queue_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB2E166DE192009C83AD /* queue_inactive.png */; };
+		9BCECB4F166DE192009C83AD /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB2F166DE192009C83AD /* share.png */; };
+		9BCECB50166DE192009C83AD /* top_bar_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB30166DE192009C83AD /* top_bar_black.png */; };
+		9BCECB51166DE192009C83AD /* top_bar_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB31166DE192009C83AD /* top_bar_grey.png */; };
+		9BCECB52166DE192009C83AD /* tv_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB32166DE192009C83AD /* tv_icon.png */; };
+		9BCECB53166DE192009C83AD /* vid_sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCECB33166DE192009C83AD /* vid_sample.png */; };
+		9BDFA66116A5241E0003D4A1 /* share2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDFA66016A5241E0003D4A1 /* share2.png */; };
+		9BE1950216BE43ED00B1CC1A /* default_screen_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE1950116BE43ED00B1CC1A /* default_screen_4.png */; };
+		9BF8516016B5F5E1008AB17C /* addmore_favorites_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515416B5F5E1008AB17C /* addmore_favorites_divider.png */; };
+		9BF8516116B5F5E1008AB17C /* addmore_favorites_divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515516B5F5E1008AB17C /* addmore_favorites_divider@2x.png */; };
+		9BF8516216B5F5E1008AB17C /* addmore_favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515616B5F5E1008AB17C /* addmore_favorites.png */; };
+		9BF8516316B5F5E1008AB17C /* addmore_favorites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515716B5F5E1008AB17C /* addmore_favorites@2x.png */; };
+		9BF8516416B5F5E1008AB17C /* addmore_popular_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515816B5F5E1008AB17C /* addmore_popular_divider.png */; };
+		9BF8516516B5F5E1008AB17C /* addmore_popular_divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515916B5F5E1008AB17C /* addmore_popular_divider@2x.png */; };
+		9BF8516616B5F5E1008AB17C /* addmore_popular.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515A16B5F5E1008AB17C /* addmore_popular.png */; };
+		9BF8516716B5F5E1008AB17C /* addmore_popular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515B16B5F5E1008AB17C /* addmore_popular@2x.png */; };
+		9BF8516816B5F5E1008AB17C /* addmore_twitter_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515C16B5F5E1008AB17C /* addmore_twitter_divider.png */; };
+		9BF8516916B5F5E1008AB17C /* addmore_twitter_divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515D16B5F5E1008AB17C /* addmore_twitter_divider@2x.png */; };
+		9BF8516A16B5F5E1008AB17C /* addmore_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515E16B5F5E1008AB17C /* addmore_twitter.png */; };
+		9BF8516B16B5F5E1008AB17C /* addmore_twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8515F16B5F5E1008AB17C /* addmore_twitter@2x.png */; };
+		9BF9D09216C5A79300F7E6FE /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D07F16C5A79300F7E6FE /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		9BF9D09316C5A79300F7E6FE /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D08216C5A79300F7E6FE /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		9BF9D09416C5A79300F7E6FE /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D08416C5A79300F7E6FE /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		9BF9D09516C5A79300F7E6FE /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D08616C5A79300F7E6FE /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		9BF9D09616C5A79300F7E6FE /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D08816C5A79300F7E6FE /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		9BF9D09716C5A79300F7E6FE /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D08A16C5A79300F7E6FE /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		9BF9D09816C5A79300F7E6FE /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D08E16C5A79300F7E6FE /* ASIInputStream.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		9BF9D09916C5A79300F7E6FE /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D09016C5A79300F7E6FE /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		9BF9D09C16C5A7F000F7E6FE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D09B16C5A7F000F7E6FE /* Reachability.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		9BFEEE751640A641009466A7 /* couch_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFEEE741640A641009466A7 /* couch_small.png */; };
+		9BFEEE771640A658009466A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFEEE761640A658009466A7 /* Default@2x.png */; };
+		9BFEEE791640A65C009466A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFEEE781640A65C009466A7 /* Default-568h@2x.png */; };
+		9BFEEE7B1640B190009466A7 /* couch_ipad_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFEEE7A1640B190009466A7 /* couch_ipad_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B23203D166AD04C003B1B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B232028166AD04C003B1B34 /* GMGridView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78509312149FAC2E000787E4;
+			remoteInfo = GMGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B0013211642398D004F2A37 /* SDSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSegmentedControl.h; sourceTree = "<group>"; };
+		9B0013221642398D004F2A37 /* SDSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSegmentedControl.m; sourceTree = "<group>"; };
+		9B00132516423A11004F2A37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B03A4DB163916DD00302E85 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		9B03A4DD163916E100302E85 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		9B03A4DF163916E300302E85 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		9B03A4E1163916E600302E85 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		9B03A4E31639170000302E85 /* couch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = couch.png; sourceTree = "<group>"; };
+		9B12093D16613E38007D9073 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9B12093F16613E46007D9073 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9B12094116614AE3007D9073 /* FinderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinderViewController.h; sourceTree = "<group>"; };
+		9B12094216614AE3007D9073 /* FinderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinderViewController.m; sourceTree = "<group>"; };
+		9B12094316614AE3007D9073 /* FinderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinderViewController.xib; sourceTree = "<group>"; };
+		9B232025166AD04C003B1B34 /* GMGridView-Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMGridView-Constants.h"; sourceTree = "<group>"; };
+		9B232026166AD04C003B1B34 /* GMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridView.h; sourceTree = "<group>"; };
+		9B232027166AD04C003B1B34 /* GMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridView.m; sourceTree = "<group>"; };
+		9B232028166AD04C003B1B34 /* GMGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GMGridView.xcodeproj; sourceTree = "<group>"; };
+		9B23202B166AD04C003B1B34 /* GMGridViewCell+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMGridViewCell+Extended.h"; sourceTree = "<group>"; };
+		9B23202C166AD04C003B1B34 /* GMGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewCell.h; sourceTree = "<group>"; };
+		9B23202D166AD04C003B1B34 /* GMGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewCell.m; sourceTree = "<group>"; };
+		9B23202E166AD04C003B1B34 /* GMGridViewLayoutStrategies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewLayoutStrategies.h; sourceTree = "<group>"; };
+		9B23202F166AD04C003B1B34 /* GMGridViewLayoutStrategies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewLayoutStrategies.m; sourceTree = "<group>"; };
+		9B232030166AD04C003B1B34 /* UIGestureRecognizer+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		9B232031166AD04C003B1B34 /* UIGestureRecognizer+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		9B232032166AD04C003B1B34 /* UIView+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		9B232033166AD04C003B1B34 /* UIView+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		9B232041166AD152003B1B34 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		9B232042166AD152003B1B34 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		9B232043166AD152003B1B34 /* LBYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTube.h; sourceTree = "<group>"; };
+		9B232044166AD152003B1B34 /* LBYouTubeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubeExtractor.h; sourceTree = "<group>"; };
+		9B232045166AD152003B1B34 /* LBYouTubeExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubeExtractor.m; sourceTree = "<group>"; };
+		9B232046166AD152003B1B34 /* LBYouTubePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubePlayerController.h; sourceTree = "<group>"; };
+		9B232047166AD152003B1B34 /* LBYouTubePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubePlayerController.m; sourceTree = "<group>"; };
+		9B232048166AD152003B1B34 /* LBYouTubePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubePlayerViewController.h; sourceTree = "<group>"; };
+		9B232049166AD152003B1B34 /* LBYouTubePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubePlayerViewController.m; sourceTree = "<group>"; };
+		9B23204E166AD1BD003B1B34 /* eye_inv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eye_inv.png; path = png/eye_inv.png; sourceTree = "<group>"; };
+		9B23204F166AD1BD003B1B34 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eye.png; path = png/eye.png; sourceTree = "<group>"; };
+		9B309E9B1486F9BB00E243A4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9B309EBB1486FC6000E243A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9B309EC91486FD5100E243A4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B309ECB1486FD6100E243A4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9B309ECD1486FD7100E243A4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9B57B15B166DEC82002ED148 /* profile_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_settings.png; path = png/profile_settings.png; sourceTree = "<group>"; };
+		9B635B5316E444220014285F /* add_to_queue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_to_queue.png; path = ../../../../../Downloads/add_to_queue.png; sourceTree = "<group>"; };
+		9B635B5416E444220014285F /* add_to_queue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add_to_queue@2x.png"; path = "../../../../../Downloads/add_to_queue@2x.png"; sourceTree = "<group>"; };
+		9B6D138616AE3D1C00EB11AD /* TwitterSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterSettings.h; sourceTree = "<group>"; };
+		9B6D138716AE3D1C00EB11AD /* TwitterSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterSettings.m; sourceTree = "<group>"; };
+		9B6D138916AE3E9100EB11AD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9B7316F316BA28E1003B5D46 /* minitweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minitweet.png; path = png/minitweet.png; sourceTree = SOURCE_ROOT; };
+		9B7316F416BA28E1003B5D46 /* minitweet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "minitweet@2x.png"; path = "png/minitweet@2x.png"; sourceTree = SOURCE_ROOT; };
+		9B7316F516BA28E1003B5D46 /* watched_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watched_icon.png; path = png/watched_icon.png; sourceTree = SOURCE_ROOT; };
+		9B7316F616BA28E1003B5D46 /* watched_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "watched_icon@2x.png"; path = "png/watched_icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		9B77C50B16618FA400D1B5D7 /* SlidingTabsTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingTabsTab.h; sourceTree = "<group>"; };
+		9B77C50C16618FA400D1B5D7 /* SlidingTabsTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingTabsTab.m; sourceTree = "<group>"; };
+		9B77C50D16618FA400D1B5D7 /* SlidingTabsControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingTabsControl.h; sourceTree = "<group>"; };
+		9B77C50E16618FA400D1B5D7 /* SlidingTabsControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingTabsControl.m; sourceTree = "<group>"; };
+		9B7ED6A9167067BA00D1B18A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		9B7ED6AB167067C400D1B18A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B7ED6AD167067CC00D1B18A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		9B7ED6AF1670706900D1B18A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9B7F3B3F16EB06E5001F0F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9B7F3B4116EB1273001F0F16 /* FinderViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FinderViewController~iphone.xib"; sourceTree = "<group>"; };
+		9B82F5BB16C8613800547889 /* couch-cushion-green-72px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "couch-cushion-green-72px.png"; sourceTree = "<group>"; };
+		9B82F5BD16C8613C00547889 /* couch-cushion-green-144px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "couch-cushion-green-144px.png"; sourceTree = "<group>"; };
+		9B82F5C316C8727400547889 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = SOURCE_ROOT; };
+		9B82F5C416C8727400547889 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		9B82F5C516C8727400547889 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		9B82F5C816C8B08300547889 /* more_videos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more_videos.png; path = png/more_videos.png; sourceTree = SOURCE_ROOT; };
+		9B82F5C916C8B08300547889 /* more_videos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "more_videos@2x.png"; path = "png/more_videos@2x.png"; sourceTree = SOURCE_ROOT; };
+		9B82F5CC16C8B0FC00547889 /* current_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "current_active@2x.png"; path = "png/current_active@2x.png"; sourceTree = "<group>"; };
+		9B82F5CD16C8B0FC00547889 /* current_inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "current_inactive@2x.png"; path = "png/current_inactive@2x.png"; sourceTree = "<group>"; };
+		9B82F5CE16C8B0FC00547889 /* profile_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile_active@2x.png"; path = "png/profile_active@2x.png"; sourceTree = "<group>"; };
+		9B82F5CF16C8B0FC00547889 /* profile_inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile_inactive@2x.png"; path = "png/profile_inactive@2x.png"; sourceTree = "<group>"; };
+		9B82F5D016C8B0FC00547889 /* queue_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "queue_active@2x.png"; path = "png/queue_active@2x.png"; sourceTree = "<group>"; };
+		9B82F5D116C8B0FC00547889 /* queue_inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "queue_inactive@2x.png"; path = "png/queue_inactive@2x.png"; sourceTree = "<group>"; };
+		9B8FEDF71484B82500C1EF0E /* AddToCouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddToCouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8FEDFB1484B82500C1EF0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B8FEDFD1484B82500C1EF0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B8FEDFF1484B82500C1EF0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B8FEE031484B82500C1EF0E /* AddToCouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddToCouch-Info.plist"; sourceTree = "<group>"; };
+		9B8FEE051484B82500C1EF0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B8FEE071484B82500C1EF0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B8FEE091484B82500C1EF0E /* AddToCouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddToCouch-Prefix.pch"; sourceTree = "<group>"; };
+		9B8FEE0A1484B82500C1EF0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B8FEE0B1484B82500C1EF0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B8FEE111484B82500C1EF0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9B8FEE131484B82500C1EF0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B8FEE141484B82500C1EF0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B8FEE1B1484B89000C1EF0E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9B8FEE1D1484B89A00C1EF0E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9BA8782316756BD300930936 /* couch-cushion-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "couch-cushion-green.png"; path = "png/couch-cushion-green.png"; sourceTree = "<group>"; };
+		9BA8782516756D7900930936 /* couch-cushion-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "couch-cushion-green.png"; sourceTree = "<group>"; };
+		9BA8782716756DC800930936 /* couch-cushion-green_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "couch-cushion-green_icon@2x.png"; sourceTree = "<group>"; };
+		9BA8782916756E8D00930936 /* couch-cushion-green_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "couch-cushion-green_72.png"; sourceTree = "<group>"; };
+		9BC640CA16B5A72F00344210 /* twitter4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter4.png; path = png/twitter4.png; sourceTree = SOURCE_ROOT; };
+		9BC640CC16B5AB4900344210 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twitter.png; path = png/Twitter.png; sourceTree = SOURCE_ROOT; };
+		9BC640CE16B5AC1500344210 /* twitter_newbird_boxed_whiteonblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_newbird_boxed_whiteonblue.png; path = png/twitter_newbird_boxed_whiteonblue.png; sourceTree = SOURCE_ROOT; };
+		9BC640D016B5ADBF00344210 /* jigo-demo-icon-rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jigo-demo-icon-rocket.png"; path = "png/jigo-demo-icon-rocket.png"; sourceTree = SOURCE_ROOT; };
+		9BCECB14166DE192009C83AD /* a2c_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a2c_logo.png; path = png/a2c_logo.png; sourceTree = "<group>"; };
+		9BCECB16166DE192009C83AD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = png/background.png; sourceTree = "<group>"; };
+		9BCECB17166DE192009C83AD /* bottom_bar_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_bar_black.png; path = png/bottom_bar_black.png; sourceTree = "<group>"; };
+		9BCECB18166DE192009C83AD /* bottom_fade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_fade.png; path = png/bottom_fade.png; sourceTree = "<group>"; };
+		9BCECB19166DE192009C83AD /* couch_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couch_icon.png; path = png/couch_icon.png; sourceTree = "<group>"; };
+		9BCECB1A166DE192009C83AD /* couch_ipad_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couch_ipad_icon.png; path = png/couch_ipad_icon.png; sourceTree = "<group>"; };
+		9BCECB1B166DE192009C83AD /* couch_orig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couch_orig.png; path = png/couch_orig.png; sourceTree = "<group>"; };
+		9BCECB1C166DE192009C83AD /* couch_ret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couch_ret.png; path = png/couch_ret.png; sourceTree = "<group>"; };
+		9BCECB1D166DE192009C83AD /* couch_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couch_small.png; path = png/couch_small.png; sourceTree = "<group>"; };
+		9BCECB1E166DE192009C83AD /* couch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couch.png; path = png/couch.png; sourceTree = "<group>"; };
+		9BCECB1F166DE192009C83AD /* crosshatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crosshatch.png; path = png/crosshatch.png; sourceTree = "<group>"; };
+		9BCECB20166DE192009C83AD /* current_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = current_active.png; path = png/current_active.png; sourceTree = "<group>"; };
+		9BCECB21166DE192009C83AD /* current_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = current_inactive.png; path = png/current_inactive.png; sourceTree = "<group>"; };
+		9BCECB22166DE192009C83AD /* FutureFood_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FutureFood_001.png; path = png/FutureFood_001.png; sourceTree = "<group>"; };
+		9BCECB23166DE192009C83AD /* icon_right_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_right_divider.png; path = png/icon_right_divider.png; sourceTree = "<group>"; };
+		9BCECB24166DE192009C83AD /* id_card_horizontal_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = id_card_horizontal_divider.png; path = png/id_card_horizontal_divider.png; sourceTree = "<group>"; };
+		9BCECB25166DE192009C83AD /* id_card_settings_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = id_card_settings_active.png; path = png/id_card_settings_active.png; sourceTree = "<group>"; };
+		9BCECB26166DE192009C83AD /* id_card_settings_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = id_card_settings_inactive.png; path = png/id_card_settings_inactive.png; sourceTree = "<group>"; };
+		9BCECB27166DE192009C83AD /* id_card_vertical_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = id_card_vertical_divider.png; path = png/id_card_vertical_divider.png; sourceTree = "<group>"; };
+		9BCECB28166DE192009C83AD /* idcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = idcard.png; path = png/idcard.png; sourceTree = "<group>"; };
+		9BCECB29166DE192009C83AD /* inplay2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inplay2.png; path = png/inplay2.png; sourceTree = "<group>"; };
+		9BCECB2A166DE192009C83AD /* profile_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_active.png; path = png/profile_active.png; sourceTree = "<group>"; };
+		9BCECB2B166DE192009C83AD /* profile_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_inactive.png; path = png/profile_inactive.png; sourceTree = "<group>"; };
+		9BCECB2C166DE192009C83AD /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = png/profile.png; sourceTree = "<group>"; };
+		9BCECB2D166DE192009C83AD /* queue_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = queue_active.png; path = png/queue_active.png; sourceTree = "<group>"; };
+		9BCECB2E166DE192009C83AD /* queue_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = queue_inactive.png; path = png/queue_inactive.png; sourceTree = "<group>"; };
+		9BCECB2F166DE192009C83AD /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = png/share.png; sourceTree = "<group>"; };
+		9BCECB30166DE192009C83AD /* top_bar_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_bar_black.png; path = png/top_bar_black.png; sourceTree = "<group>"; };
+		9BCECB31166DE192009C83AD /* top_bar_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_bar_grey.png; path = png/top_bar_grey.png; sourceTree = "<group>"; };
+		9BCECB32166DE192009C83AD /* tv_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tv_icon.png; path = png/tv_icon.png; sourceTree = "<group>"; };
+		9BCECB33166DE192009C83AD /* vid_sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vid_sample.png; path = png/vid_sample.png; sourceTree = "<group>"; };
+		9BDFA66016A5241E0003D4A1 /* share2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share2.png; path = png/share2.png; sourceTree = "<group>"; };
+		9BE1950116BE43ED00B1CC1A /* default_screen_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_screen_4.png; path = ../../../../../Downloads/default_screen_4.png; sourceTree = "<group>"; };
+		9BF8515416B5F5E1008AB17C /* addmore_favorites_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addmore_favorites_divider.png; path = png/addmore_favorites_divider.png; sourceTree = "<group>"; };
+		9BF8515516B5F5E1008AB17C /* addmore_favorites_divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addmore_favorites_divider@2x.png"; path = "png/addmore_favorites_divider@2x.png"; sourceTree = "<group>"; };
+		9BF8515616B5F5E1008AB17C /* addmore_favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addmore_favorites.png; path = png/addmore_favorites.png; sourceTree = "<group>"; };
+		9BF8515716B5F5E1008AB17C /* addmore_favorites@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addmore_favorites@2x.png"; path = "png/addmore_favorites@2x.png"; sourceTree = "<group>"; };
+		9BF8515816B5F5E1008AB17C /* addmore_popular_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addmore_popular_divider.png; path = png/addmore_popular_divider.png; sourceTree = "<group>"; };
+		9BF8515916B5F5E1008AB17C /* addmore_popular_divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addmore_popular_divider@2x.png"; path = "png/addmore_popular_divider@2x.png"; sourceTree = "<group>"; };
+		9BF8515A16B5F5E1008AB17C /* addmore_popular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addmore_popular.png; path = png/addmore_popular.png; sourceTree = "<group>"; };
+		9BF8515B16B5F5E1008AB17C /* addmore_popular@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addmore_popular@2x.png"; path = "png/addmore_popular@2x.png"; sourceTree = "<group>"; };
+		9BF8515C16B5F5E1008AB17C /* addmore_twitter_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addmore_twitter_divider.png; path = png/addmore_twitter_divider.png; sourceTree = "<group>"; };
+		9BF8515D16B5F5E1008AB17C /* addmore_twitter_divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addmore_twitter_divider@2x.png"; path = "png/addmore_twitter_divider@2x.png"; sourceTree = "<group>"; };
+		9BF8515E16B5F5E1008AB17C /* addmore_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addmore_twitter.png; path = png/addmore_twitter.png; sourceTree = "<group>"; };
+		9BF8515F16B5F5E1008AB17C /* addmore_twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addmore_twitter@2x.png"; path = "png/addmore_twitter@2x.png"; sourceTree = "<group>"; };
+		9BF9D07E16C5A79300F7E6FE /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIAuthenticationDialog.h; path = ASI/ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		9BF9D07F16C5A79300F7E6FE /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIAuthenticationDialog.m; path = ASI/ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		9BF9D08016C5A79300F7E6FE /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASICacheDelegate.h; path = ASI/ASICacheDelegate.h; sourceTree = "<group>"; };
+		9BF9D08116C5A79300F7E6FE /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataCompressor.h; path = ASI/ASIDataCompressor.h; sourceTree = "<group>"; };
+		9BF9D08216C5A79300F7E6FE /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataCompressor.m; path = ASI/ASIDataCompressor.m; sourceTree = "<group>"; };
+		9BF9D08316C5A79300F7E6FE /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDataDecompressor.h; path = ASI/ASIDataDecompressor.h; sourceTree = "<group>"; };
+		9BF9D08416C5A79300F7E6FE /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDataDecompressor.m; path = ASI/ASIDataDecompressor.m; sourceTree = "<group>"; };
+		9BF9D08516C5A79300F7E6FE /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIDownloadCache.h; path = ASI/ASIDownloadCache.h; sourceTree = "<group>"; };
+		9BF9D08616C5A79300F7E6FE /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIDownloadCache.m; path = ASI/ASIDownloadCache.m; sourceTree = "<group>"; };
+		9BF9D08716C5A79300F7E6FE /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIFormDataRequest.h; path = ASI/ASIFormDataRequest.h; sourceTree = "<group>"; };
+		9BF9D08816C5A79300F7E6FE /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIFormDataRequest.m; path = ASI/ASIFormDataRequest.m; sourceTree = "<group>"; };
+		9BF9D08916C5A79300F7E6FE /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequest.h; path = ASI/ASIHTTPRequest.h; sourceTree = "<group>"; };
+		9BF9D08A16C5A79300F7E6FE /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequest.m; path = ASI/ASIHTTPRequest.m; sourceTree = "<group>"; };
+		9BF9D08B16C5A79300F7E6FE /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestConfig.h; path = ASI/ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		9BF9D08C16C5A79300F7E6FE /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestDelegate.h; path = ASI/ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		9BF9D08D16C5A79300F7E6FE /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIInputStream.h; path = ASI/ASIInputStream.h; sourceTree = "<group>"; };
+		9BF9D08E16C5A79300F7E6FE /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASIInputStream.m; path = ASI/ASIInputStream.m; sourceTree = "<group>"; };
+		9BF9D08F16C5A79300F7E6FE /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = ASI/ASINetworkQueue.h; sourceTree = "<group>"; };
+		9BF9D09016C5A79300F7E6FE /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = ASI/ASINetworkQueue.m; sourceTree = "<group>"; };
+		9BF9D09116C5A79300F7E6FE /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = ASI/ASIProgressDelegate.h; sourceTree = "<group>"; };
+		9BF9D09A16C5A7F000F7E6FE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9BF9D09B16C5A7F000F7E6FE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9BFEEE741640A641009466A7 /* couch_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = couch_small.png; sourceTree = "<group>"; };
+		9BFEEE761640A658009466A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9BFEEE781640A65C009466A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9BFEEE7A1640B190009466A7 /* couch_ipad_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = couch_ipad_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8FEDF41484B82400C1EF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D138A16AE3E9100EB11AD /* Social.framework in Frameworks */,
+				9B7ED6B01670706900D1B18A /* MessageUI.framework in Frameworks */,
+				9B7ED6AE167067CC00D1B18A /* Twitter.framework in Frameworks */,
+				9B7ED6AC167067C400D1B18A /* AVFoundation.framework in Frameworks */,
+				9B7ED6AA167067BA00D1B18A /* Accounts.framework in Frameworks */,
+				9B12094016613E46007D9073 /* Accelerate.framework in Frameworks */,
+				9B12093E16613E38007D9073 /* CoreImage.framework in Frameworks */,
+				9B00132616423A11004F2A37 /* QuartzCore.framework in Frameworks */,
+				9B309ECE1486FD7100E243A4 /* libz.dylib in Frameworks */,
+				9B309ECC1486FD6100E243A4 /* MobileCoreServices.framework in Frameworks */,
+				9B309ECA1486FD5100E243A4 /* SystemConfiguration.framework in Frameworks */,
+				9B309EBC1486FC6000E243A4 /* CFNetwork.framework in Frameworks */,
+				9B309E9C1486F9BB00E243A4 /* MediaPlayer.framework in Frameworks */,
+				9B8FEDFC1484B82500C1EF0E /* UIKit.framework in Frameworks */,
+				9B8FEDFE1484B82500C1EF0E /* Foundation.framework in Frameworks */,
+				9B8FEE001484B82500C1EF0E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B17CE2A1643249D00FCFA77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9B232024166AD04C003B1B34 /* GMGridView */ = {
+			isa = PBXGroup;
+			children = (
+				9B232025166AD04C003B1B34 /* GMGridView-Constants.h */,
+				9B232026166AD04C003B1B34 /* GMGridView.h */,
+				9B232027166AD04C003B1B34 /* GMGridView.m */,
+				9B232028166AD04C003B1B34 /* GMGridView.xcodeproj */,
+				9B23202B166AD04C003B1B34 /* GMGridViewCell+Extended.h */,
+				9B23202C166AD04C003B1B34 /* GMGridViewCell.h */,
+				9B23202D166AD04C003B1B34 /* GMGridViewCell.m */,
+				9B23202E166AD04C003B1B34 /* GMGridViewLayoutStrategies.h */,
+				9B23202F166AD04C003B1B34 /* GMGridViewLayoutStrategies.m */,
+				9B232030166AD04C003B1B34 /* UIGestureRecognizer+GMGridViewAdditions.h */,
+				9B232031166AD04C003B1B34 /* UIGestureRecognizer+GMGridViewAdditions.m */,
+				9B232032166AD04C003B1B34 /* UIView+GMGridViewAdditions.h */,
+				9B232033166AD04C003B1B34 /* UIView+GMGridViewAdditions.m */,
+			);
+			path = GMGridView;
+			sourceTree = "<group>";
+		};
+		9B232029166AD04C003B1B34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B23203E166AD04C003B1B34 /* libGMGridView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B232040166AD066003B1B34 /* pngs */ = {
+			isa = PBXGroup;
+			children = (
+				9B635B5316E444220014285F /* add_to_queue.png */,
+				9B635B5416E444220014285F /* add_to_queue@2x.png */,
+				9B82F5CC16C8B0FC00547889 /* current_active@2x.png */,
+				9B82F5CD16C8B0FC00547889 /* current_inactive@2x.png */,
+				9B82F5CE16C8B0FC00547889 /* profile_active@2x.png */,
+				9B82F5CF16C8B0FC00547889 /* profile_inactive@2x.png */,
+				9B82F5D016C8B0FC00547889 /* queue_active@2x.png */,
+				9B82F5D116C8B0FC00547889 /* queue_inactive@2x.png */,
+				9BE1950116BE43ED00B1CC1A /* default_screen_4.png */,
+				9BDFA66016A5241E0003D4A1 /* share2.png */,
+				9BA8782316756BD300930936 /* couch-cushion-green.png */,
+				9B57B15B166DEC82002ED148 /* profile_settings.png */,
+				9BCECB14166DE192009C83AD /* a2c_logo.png */,
+				9BCECB16166DE192009C83AD /* background.png */,
+				9BCECB17166DE192009C83AD /* bottom_bar_black.png */,
+				9BCECB18166DE192009C83AD /* bottom_fade.png */,
+				9BCECB19166DE192009C83AD /* couch_icon.png */,
+				9BCECB1A166DE192009C83AD /* couch_ipad_icon.png */,
+				9BCECB1B166DE192009C83AD /* couch_orig.png */,
+				9BCECB1C166DE192009C83AD /* couch_ret.png */,
+				9BCECB1D166DE192009C83AD /* couch_small.png */,
+				9BCECB1E166DE192009C83AD /* couch.png */,
+				9BCECB1F166DE192009C83AD /* crosshatch.png */,
+				9BCECB20166DE192009C83AD /* current_active.png */,
+				9BCECB21166DE192009C83AD /* current_inactive.png */,
+				9BCECB22166DE192009C83AD /* FutureFood_001.png */,
+				9BCECB23166DE192009C83AD /* icon_right_divider.png */,
+				9BCECB24166DE192009C83AD /* id_card_horizontal_divider.png */,
+				9BCECB25166DE192009C83AD /* id_card_settings_active.png */,
+				9BCECB26166DE192009C83AD /* id_card_settings_inactive.png */,
+				9BCECB27166DE192009C83AD /* id_card_vertical_divider.png */,
+				9BCECB28166DE192009C83AD /* idcard.png */,
+				9BCECB29166DE192009C83AD /* inplay2.png */,
+				9BCECB2A166DE192009C83AD /* profile_active.png */,
+				9BCECB2B166DE192009C83AD /* profile_inactive.png */,
+				9BCECB2C166DE192009C83AD /* profile.png */,
+				9BCECB2D166DE192009C83AD /* queue_active.png */,
+				9BCECB2E166DE192009C83AD /* queue_inactive.png */,
+				9BCECB2F166DE192009C83AD /* share.png */,
+				9BCECB30166DE192009C83AD /* top_bar_black.png */,
+				9BCECB31166DE192009C83AD /* top_bar_grey.png */,
+				9BCECB32166DE192009C83AD /* tv_icon.png */,
+				9BCECB33166DE192009C83AD /* vid_sample.png */,
+				9B23204E166AD1BD003B1B34 /* eye_inv.png */,
+				9B23204F166AD1BD003B1B34 /* eye.png */,
+				9B8FEE1B1484B89000C1EF0E /* icon.png */,
+				9BFEEE7A1640B190009466A7 /* couch_ipad_icon.png */,
+				9BFEEE781640A65C009466A7 /* Default-568h@2x.png */,
+				9BFEEE761640A658009466A7 /* Default@2x.png */,
+				9BFEEE741640A641009466A7 /* couch_small.png */,
+				9B03A4E31639170000302E85 /* couch.png */,
+				9B03A4E1163916E600302E85 /* Default-Landscape@2x~ipad.png */,
+				9B03A4DF163916E300302E85 /* Default-Landscape~ipad.png */,
+				9B03A4DD163916E100302E85 /* Default-Portrait@2x~ipad.png */,
+				9B03A4DB163916DD00302E85 /* Default-Portrait~ipad.png */,
+			);
+			name = pngs;
+			sourceTree = "<group>";
+		};
+		9B8FEDEC1484B82400C1EF0E = {
+			isa = PBXGroup;
+			children = (
+				9B82F5BD16C8613C00547889 /* couch-cushion-green-144px.png */,
+				9B82F5BB16C8613800547889 /* couch-cushion-green-72px.png */,
+				9BF8515416B5F5E1008AB17C /* addmore_favorites_divider.png */,
+				9BF8515516B5F5E1008AB17C /* addmore_favorites_divider@2x.png */,
+				9BF8515616B5F5E1008AB17C /* addmore_favorites.png */,
+				9BF8515716B5F5E1008AB17C /* addmore_favorites@2x.png */,
+				9BF8515816B5F5E1008AB17C /* addmore_popular_divider.png */,
+				9BF8515916B5F5E1008AB17C /* addmore_popular_divider@2x.png */,
+				9BF8515A16B5F5E1008AB17C /* addmore_popular.png */,
+				9BF8515B16B5F5E1008AB17C /* addmore_popular@2x.png */,
+				9BF8515C16B5F5E1008AB17C /* addmore_twitter_divider.png */,
+				9BF8515D16B5F5E1008AB17C /* addmore_twitter_divider@2x.png */,
+				9BF8515E16B5F5E1008AB17C /* addmore_twitter.png */,
+				9BF8515F16B5F5E1008AB17C /* addmore_twitter@2x.png */,
+				9B6D138916AE3E9100EB11AD /* Social.framework */,
+				9BA8782916756E8D00930936 /* couch-cushion-green_72.png */,
+				9BA8782716756DC800930936 /* couch-cushion-green_icon@2x.png */,
+				9BA8782516756D7900930936 /* couch-cushion-green.png */,
+				9B7ED6AF1670706900D1B18A /* MessageUI.framework */,
+				9B232040166AD066003B1B34 /* pngs */,
+				9B309ECD1486FD7100E243A4 /* libz.dylib */,
+				9B8FEE1D1484B89A00C1EF0E /* Default.png */,
+				9B8FEE011484B82500C1EF0E /* AddToCouch */,
+				9B8FEDFA1484B82500C1EF0E /* Frameworks */,
+				9B8FEDF81484B82500C1EF0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B8FEDF81484B82500C1EF0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8FEDF71484B82500C1EF0E /* AddToCouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8FEDFA1484B82500C1EF0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B309ECB1486FD6100E243A4 /* MobileCoreServices.framework */,
+				9B309EC91486FD5100E243A4 /* SystemConfiguration.framework */,
+				9B309EBB1486FC6000E243A4 /* CFNetwork.framework */,
+				9B309E9B1486F9BB00E243A4 /* MediaPlayer.framework */,
+				9B12093F16613E46007D9073 /* Accelerate.framework */,
+				9B12093D16613E38007D9073 /* CoreImage.framework */,
+				9B00132516423A11004F2A37 /* QuartzCore.framework */,
+				9B7ED6AD167067CC00D1B18A /* Twitter.framework */,
+				9B7ED6AB167067C400D1B18A /* AVFoundation.framework */,
+				9B7ED6A9167067BA00D1B18A /* Accounts.framework */,
+				9B8FEDFB1484B82500C1EF0E /* UIKit.framework */,
+				9B8FEDFD1484B82500C1EF0E /* Foundation.framework */,
+				9B8FEDFF1484B82500C1EF0E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B8FEE011484B82500C1EF0E /* AddToCouch */ = {
+			isa = PBXGroup;
+			children = (
+				9B82F5C316C8727400547889 /* SVProgressHUD.bundle */,
+				9B82F5C416C8727400547889 /* SVProgressHUD.h */,
+				9B82F5C516C8727400547889 /* SVProgressHUD.m */,
+				9BF9D07D16C5A78400F7E6FE /* ASI */,
+				9B232041166AD152003B1B34 /* JSONKit.m */,
+				9B232042166AD152003B1B34 /* JSONKit.h */,
+				9B232043166AD152003B1B34 /* LBYouTube.h */,
+				9B232044166AD152003B1B34 /* LBYouTubeExtractor.h */,
+				9B232045166AD152003B1B34 /* LBYouTubeExtractor.m */,
+				9B232046166AD152003B1B34 /* LBYouTubePlayerController.h */,
+				9B232047166AD152003B1B34 /* LBYouTubePlayerController.m */,
+				9B232048166AD152003B1B34 /* LBYouTubePlayerViewController.h */,
+				9B232049166AD152003B1B34 /* LBYouTubePlayerViewController.m */,
+				9B232024166AD04C003B1B34 /* GMGridView */,
+				9B17CE2A1643249D00FCFA77 /* Resources */,
+				9B0013211642398D004F2A37 /* SDSegmentedControl.h */,
+				9B0013221642398D004F2A37 /* SDSegmentedControl.m */,
+				9B77C50B16618FA400D1B5D7 /* SlidingTabsTab.h */,
+				9B77C50C16618FA400D1B5D7 /* SlidingTabsTab.m */,
+				9B77C50D16618FA400D1B5D7 /* SlidingTabsControl.h */,
+				9B77C50E16618FA400D1B5D7 /* SlidingTabsControl.m */,
+				9B8FEE0A1484B82500C1EF0E /* AppDelegate.h */,
+				9B8FEE0B1484B82500C1EF0E /* AppDelegate.m */,
+				9B8FEE101484B82500C1EF0E /* MainStoryboard_iPad.storyboard */,
+				9B7F3B3E16EB06E5001F0F16 /* MainStoryboard_iPhone.storyboard */,
+				9B82F5C816C8B08300547889 /* more_videos.png */,
+				9B82F5C916C8B08300547889 /* more_videos@2x.png */,
+				9B7316F316BA28E1003B5D46 /* minitweet.png */,
+				9B7316F416BA28E1003B5D46 /* minitweet@2x.png */,
+				9B7316F516BA28E1003B5D46 /* watched_icon.png */,
+				9B7316F616BA28E1003B5D46 /* watched_icon@2x.png */,
+				9B8FEE131484B82500C1EF0E /* ViewController.h */,
+				9B8FEE141484B82500C1EF0E /* ViewController.m */,
+				9B12094116614AE3007D9073 /* FinderViewController.h */,
+				9B12094216614AE3007D9073 /* FinderViewController.m */,
+				9B12094316614AE3007D9073 /* FinderViewController.xib */,
+				9B7F3B4116EB1273001F0F16 /* FinderViewController~iphone.xib */,
+				9BC640D016B5ADBF00344210 /* jigo-demo-icon-rocket.png */,
+				9BC640CE16B5AC1500344210 /* twitter_newbird_boxed_whiteonblue.png */,
+				9BC640CC16B5AB4900344210 /* Twitter.png */,
+				9BC640CA16B5A72F00344210 /* twitter4.png */,
+				9B8FEE021484B82500C1EF0E /* Supporting Files */,
+				9B6D138616AE3D1C00EB11AD /* TwitterSettings.h */,
+				9B6D138716AE3D1C00EB11AD /* TwitterSettings.m */,
+			);
+			name = AddToCouch;
+			path = src;
+			sourceTree = "<group>";
+		};
+		9B8FEE021484B82500C1EF0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B8FEE031484B82500C1EF0E /* AddToCouch-Info.plist */,
+				9B8FEE041484B82500C1EF0E /* InfoPlist.strings */,
+				9B8FEE071484B82500C1EF0E /* main.m */,
+				9B8FEE091484B82500C1EF0E /* AddToCouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BF9D07D16C5A78400F7E6FE /* ASI */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9D09A16C5A7F000F7E6FE /* Reachability.h */,
+				9BF9D09B16C5A7F000F7E6FE /* Reachability.m */,
+				9BF9D07E16C5A79300F7E6FE /* ASIAuthenticationDialog.h */,
+				9BF9D07F16C5A79300F7E6FE /* ASIAuthenticationDialog.m */,
+				9BF9D08016C5A79300F7E6FE /* ASICacheDelegate.h */,
+				9BF9D08116C5A79300F7E6FE /* ASIDataCompressor.h */,
+				9BF9D08216C5A79300F7E6FE /* ASIDataCompressor.m */,
+				9BF9D08316C5A79300F7E6FE /* ASIDataDecompressor.h */,
+				9BF9D08416C5A79300F7E6FE /* ASIDataDecompressor.m */,
+				9BF9D08516C5A79300F7E6FE /* ASIDownloadCache.h */,
+				9BF9D08616C5A79300F7E6FE /* ASIDownloadCache.m */,
+				9BF9D08716C5A79300F7E6FE /* ASIFormDataRequest.h */,
+				9BF9D08816C5A79300F7E6FE /* ASIFormDataRequest.m */,
+				9BF9D08916C5A79300F7E6FE /* ASIHTTPRequest.h */,
+				9BF9D08A16C5A79300F7E6FE /* ASIHTTPRequest.m */,
+				9BF9D08B16C5A79300F7E6FE /* ASIHTTPRequestConfig.h */,
+				9BF9D08C16C5A79300F7E6FE /* ASIHTTPRequestDelegate.h */,
+				9BF9D08D16C5A79300F7E6FE /* ASIInputStream.h */,
+				9BF9D08E16C5A79300F7E6FE /* ASIInputStream.m */,
+				9BF9D08F16C5A79300F7E6FE /* ASINetworkQueue.h */,
+				9BF9D09016C5A79300F7E6FE /* ASINetworkQueue.m */,
+				9BF9D09116C5A79300F7E6FE /* ASIProgressDelegate.h */,
+			);
+			name = ASI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B8FEDF61484B82400C1EF0E /* AddToCouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8FEE181484B82500C1EF0E /* Build configuration list for PBXNativeTarget "AddToCouch" */;
+			buildPhases = (
+				9B8FEDF31484B82400C1EF0E /* Sources */,
+				9B8FEDF41484B82400C1EF0E /* Frameworks */,
+				9B8FEDF51484B82400C1EF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddToCouch;
+			productName = src;
+			productReference = 9B8FEDF71484B82500C1EF0E /* AddToCouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B8FEDEE1484B82400C1EF0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = MOG;
+			};
+			buildConfigurationList = 9B8FEDF11484B82400C1EF0E /* Build configuration list for PBXProject "AddToCouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ar,
+				ca,
+				cs,
+				da,
+				Dutch,
+				el,
+				English,
+				fi,
+				French,
+				German,
+				he,
+				hr,
+				hu,
+				Italian,
+				Japanese,
+				ko,
+				no,
+				pl,
+				pt,
+				pt_PT,
+				ro,
+				ru,
+				sk,
+				Spanish,
+				sv,
+				th,
+				tr,
+				uk,
+				zh_CN,
+				zh_TW,
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				nl,
+				Danish,
+				en_AU,
+				en_CA,
+				en_CN,
+				en_GB,
+				en_JP,
+				Portuguese,
+				Russian,
+				Swedish,
+			);
+			mainGroup = 9B8FEDEC1484B82400C1EF0E;
+			productRefGroup = 9B8FEDF81484B82500C1EF0E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9B232029166AD04C003B1B34 /* Products */;
+					ProjectRef = 9B232028166AD04C003B1B34 /* GMGridView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9B8FEDF61484B82400C1EF0E /* AddToCouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9B23203E166AD04C003B1B34 /* libGMGridView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGMGridView.a;
+			remoteRef = 9B23203D166AD04C003B1B34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B8FEDF51484B82400C1EF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8FEE061484B82500C1EF0E /* InfoPlist.strings in Resources */,
+				9B8FEE121484B82500C1EF0E /* MainStoryboard_iPad.storyboard in Resources */,
+				9B8FEE1C1484B89000C1EF0E /* icon.png in Resources */,
+				9B8FEE1E1484B89A00C1EF0E /* Default.png in Resources */,
+				9B03A4E41639170000302E85 /* couch.png in Resources */,
+				9BFEEE751640A641009466A7 /* couch_small.png in Resources */,
+				9BFEEE771640A658009466A7 /* Default@2x.png in Resources */,
+				9BFEEE791640A65C009466A7 /* Default-568h@2x.png in Resources */,
+				9BFEEE7B1640B190009466A7 /* couch_ipad_icon.png in Resources */,
+				9B12094516614AE3007D9073 /* FinderViewController.xib in Resources */,
+				9B232051166AD1BD003B1B34 /* eye_inv.png in Resources */,
+				9B232052166AD1BD003B1B34 /* eye.png in Resources */,
+				9BCECB34166DE192009C83AD /* a2c_logo.png in Resources */,
+				9BCECB36166DE192009C83AD /* background.png in Resources */,
+				9BCECB37166DE192009C83AD /* bottom_bar_black.png in Resources */,
+				9BCECB38166DE192009C83AD /* bottom_fade.png in Resources */,
+				9BCECB39166DE192009C83AD /* couch_icon.png in Resources */,
+				9BCECB3A166DE192009C83AD /* couch_ipad_icon.png in Resources */,
+				9BCECB3B166DE192009C83AD /* couch_orig.png in Resources */,
+				9BCECB3C166DE192009C83AD /* couch_ret.png in Resources */,
+				9BCECB3D166DE192009C83AD /* couch_small.png in Resources */,
+				9BCECB3E166DE192009C83AD /* couch.png in Resources */,
+				9BCECB3F166DE192009C83AD /* crosshatch.png in Resources */,
+				9BCECB40166DE192009C83AD /* current_active.png in Resources */,
+				9BCECB41166DE192009C83AD /* current_inactive.png in Resources */,
+				9BCECB42166DE192009C83AD /* FutureFood_001.png in Resources */,
+				9BCECB43166DE192009C83AD /* icon_right_divider.png in Resources */,
+				9BCECB44166DE192009C83AD /* id_card_horizontal_divider.png in Resources */,
+				9BCECB45166DE192009C83AD /* id_card_settings_active.png in Resources */,
+				9BCECB46166DE192009C83AD /* id_card_settings_inactive.png in Resources */,
+				9BCECB47166DE192009C83AD /* id_card_vertical_divider.png in Resources */,
+				9BCECB48166DE192009C83AD /* idcard.png in Resources */,
+				9BCECB49166DE192009C83AD /* inplay2.png in Resources */,
+				9BCECB4A166DE192009C83AD /* profile_active.png in Resources */,
+				9BCECB4B166DE192009C83AD /* profile_inactive.png in Resources */,
+				9BCECB4C166DE192009C83AD /* profile.png in Resources */,
+				9BCECB4D166DE192009C83AD /* queue_active.png in Resources */,
+				9BCECB4E166DE192009C83AD /* queue_inactive.png in Resources */,
+				9BCECB4F166DE192009C83AD /* share.png in Resources */,
+				9BCECB50166DE192009C83AD /* top_bar_black.png in Resources */,
+				9BCECB51166DE192009C83AD /* top_bar_grey.png in Resources */,
+				9BCECB52166DE192009C83AD /* tv_icon.png in Resources */,
+				9BCECB53166DE192009C83AD /* vid_sample.png in Resources */,
+				9B57B15C166DEC82002ED148 /* profile_settings.png in Resources */,
+				9BA8782416756BD300930936 /* couch-cushion-green.png in Resources */,
+				9BA8782616756D7900930936 /* couch-cushion-green.png in Resources */,
+				9BA8782816756DC800930936 /* couch-cushion-green_icon@2x.png in Resources */,
+				9BA8782A16756E8D00930936 /* couch-cushion-green_72.png in Resources */,
+				9BDFA66116A5241E0003D4A1 /* share2.png in Resources */,
+				9BC640CB16B5A72F00344210 /* twitter4.png in Resources */,
+				9BC640CD16B5AB4900344210 /* Twitter.png in Resources */,
+				9BC640CF16B5AC1500344210 /* twitter_newbird_boxed_whiteonblue.png in Resources */,
+				9BC640D116B5ADBF00344210 /* jigo-demo-icon-rocket.png in Resources */,
+				9BF8516016B5F5E1008AB17C /* addmore_favorites_divider.png in Resources */,
+				9BF8516116B5F5E1008AB17C /* addmore_favorites_divider@2x.png in Resources */,
+				9BF8516216B5F5E1008AB17C /* addmore_favorites.png in Resources */,
+				9BF8516316B5F5E1008AB17C /* addmore_favorites@2x.png in Resources */,
+				9BF8516416B5F5E1008AB17C /* addmore_popular_divider.png in Resources */,
+				9BF8516516B5F5E1008AB17C /* addmore_popular_divider@2x.png in Resources */,
+				9BF8516616B5F5E1008AB17C /* addmore_popular.png in Resources */,
+				9BF8516716B5F5E1008AB17C /* addmore_popular@2x.png in Resources */,
+				9BF8516816B5F5E1008AB17C /* addmore_twitter_divider.png in Resources */,
+				9BF8516916B5F5E1008AB17C /* addmore_twitter_divider@2x.png in Resources */,
+				9BF8516A16B5F5E1008AB17C /* addmore_twitter.png in Resources */,
+				9BF8516B16B5F5E1008AB17C /* addmore_twitter@2x.png in Resources */,
+				9B7316F716BA28E1003B5D46 /* minitweet.png in Resources */,
+				9B7316F816BA28E1003B5D46 /* minitweet@2x.png in Resources */,
+				9B7316F916BA28E1003B5D46 /* watched_icon.png in Resources */,
+				9B7316FA16BA28E1003B5D46 /* watched_icon@2x.png in Resources */,
+				9BE1950216BE43ED00B1CC1A /* default_screen_4.png in Resources */,
+				9B82F5BC16C8613800547889 /* couch-cushion-green-72px.png in Resources */,
+				9B82F5BE16C8613C00547889 /* couch-cushion-green-144px.png in Resources */,
+				9B82F5BF16C8614300547889 /* Default-Portrait~ipad.png in Resources */,
+				9B82F5C016C8614800547889 /* Default-Portrait@2x~ipad.png in Resources */,
+				9B82F5C116C8614C00547889 /* Default-Landscape~ipad.png in Resources */,
+				9B82F5C216C8615100547889 /* Default-Landscape@2x~ipad.png in Resources */,
+				9B82F5C616C8727400547889 /* SVProgressHUD.bundle in Resources */,
+				9B82F5CA16C8B08300547889 /* more_videos.png in Resources */,
+				9B82F5CB16C8B08300547889 /* more_videos@2x.png in Resources */,
+				9B82F5D216C8B0FC00547889 /* current_active@2x.png in Resources */,
+				9B82F5D316C8B0FC00547889 /* current_inactive@2x.png in Resources */,
+				9B82F5D416C8B0FC00547889 /* profile_active@2x.png in Resources */,
+				9B82F5D516C8B0FC00547889 /* profile_inactive@2x.png in Resources */,
+				9B82F5D616C8B0FC00547889 /* queue_active@2x.png in Resources */,
+				9B82F5D716C8B0FC00547889 /* queue_inactive@2x.png in Resources */,
+				9B635B5516E444220014285F /* add_to_queue.png in Resources */,
+				9B635B5616E444220014285F /* add_to_queue@2x.png in Resources */,
+				9B7F3B4016EB06E5001F0F16 /* MainStoryboard_iPhone.storyboard in Resources */,
+				9B7F3B4216EB1273001F0F16 /* FinderViewController~iphone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B8FEDF31484B82400C1EF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8FEE081484B82500C1EF0E /* main.m in Sources */,
+				9B8FEE0C1484B82500C1EF0E /* AppDelegate.m in Sources */,
+				9B8FEE151484B82500C1EF0E /* ViewController.m in Sources */,
+				9B0013231642398D004F2A37 /* SDSegmentedControl.m in Sources */,
+				9B12094416614AE3007D9073 /* FinderViewController.m in Sources */,
+				9B77C50F16618FA400D1B5D7 /* SlidingTabsTab.m in Sources */,
+				9B77C51016618FA400D1B5D7 /* SlidingTabsControl.m in Sources */,
+				9B232037166AD04C003B1B34 /* GMGridView.m in Sources */,
+				9B232038166AD04C003B1B34 /* GMGridViewCell.m in Sources */,
+				9B232039166AD04C003B1B34 /* GMGridViewLayoutStrategies.m in Sources */,
+				9B23203A166AD04C003B1B34 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */,
+				9B23203B166AD04C003B1B34 /* UIView+GMGridViewAdditions.m in Sources */,
+				9B23204A166AD152003B1B34 /* JSONKit.m in Sources */,
+				9B23204B166AD152003B1B34 /* LBYouTubeExtractor.m in Sources */,
+				9B23204C166AD152003B1B34 /* LBYouTubePlayerController.m in Sources */,
+				9B23204D166AD152003B1B34 /* LBYouTubePlayerViewController.m in Sources */,
+				9B6D138816AE3D1C00EB11AD /* TwitterSettings.m in Sources */,
+				9BF9D09216C5A79300F7E6FE /* ASIAuthenticationDialog.m in Sources */,
+				9BF9D09316C5A79300F7E6FE /* ASIDataCompressor.m in Sources */,
+				9BF9D09416C5A79300F7E6FE /* ASIDataDecompressor.m in Sources */,
+				9BF9D09516C5A79300F7E6FE /* ASIDownloadCache.m in Sources */,
+				9BF9D09616C5A79300F7E6FE /* ASIFormDataRequest.m in Sources */,
+				9BF9D09716C5A79300F7E6FE /* ASIHTTPRequest.m in Sources */,
+				9BF9D09816C5A79300F7E6FE /* ASIInputStream.m in Sources */,
+				9BF9D09916C5A79300F7E6FE /* ASINetworkQueue.m in Sources */,
+				9BF9D09C16C5A7F000F7E6FE /* Reachability.m in Sources */,
+				9B82F5C716C8727400547889 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B7F3B3E16EB06E5001F0F16 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B7F3B3F16EB06E5001F0F16 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9B8FEE041484B82500C1EF0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8FEE051484B82500C1EF0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B8FEE101484B82500C1EF0E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8FEE111484B82500C1EF0E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B8FEE161484B82500C1EF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B8FEE171484B82500C1EF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B8FEE191484B82500C1EF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/LocationBundles\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/AddToCouch-Prefix.pch";
+				INFOPLIST_FILE = "src/AddToCouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Components/CoreAudio.component/Contents/PlugIns\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Components/QuickTimeAudioComponents.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/CoreServices/Encodings\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/Extensions\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/MonitorPanels/AppleDisplay.monitorPanels/Contents/Resources\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Perl/5.10/darwin-thread-multi-2level/CORE\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Perl/5.12/darwin-thread-multi-2level/CORE\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Perl/lib/5.10\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Printers/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTime3GPP.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeComponents.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeFireWireDV.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeH264.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeH264.component/Contents/Resources\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeImporters.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeMPEG.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeMPEG4.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeStreaming.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeVR.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/expect5.45\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Ffidl0.6.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Img1.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/itcl3.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/itk3.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Memchan2.2.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Mk4tcl2.4.9.7\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/QuickTimeTcl3.2\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/snack2.2\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tbcload1.7\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tclAE2.0.5\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclapplescript1.0\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tcldom2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tcldomxml2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclexpat2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclresource1.1.2\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tclx8.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclxml2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclxslt2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tdom0.8.3\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/thread2.6.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tktable2.10\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tls1.6.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tnc0.3.0\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/treectrl2.2.10\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Trf2.1.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/vfs1.4.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/xotcl1.6.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/expect5.45\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Ffidl0.6.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Img1.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/itcl3.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/itk3.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Memchan2.2.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Mk4tcl2.4.9.7\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tbcload1.7\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tclAE2.0.5\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tcldom2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tcldomxml2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tclexpat2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tclx8.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tclxml2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tclxslt2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tdom0.8.3\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/thread2.6.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tktable2.10\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tls1.6.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tnc0.3.0\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Trf2.1.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/vfs1.4.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/xotcl1.6.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3\"",
+				);
+				PRODUCT_NAME = AddToCouch;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B8FEE1A1484B82500C1EF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/LocationBundles\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/AddToCouch-Prefix.pch";
+				INFOPLIST_FILE = "src/AddToCouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_LIBRARY_DIR)/Components/CoreAudio.component/Contents/PlugIns\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Components/QuickTimeAudioComponents.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/CoreServices/Encodings\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/Extensions\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bundle/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Java/JavaVirtualMachines/1.6.0.jdk/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/MonitorPanels/AppleDisplay.monitorPanels/Contents/Resources\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Perl/5.10/darwin-thread-multi-2level/CORE\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Perl/5.12/darwin-thread-multi-2level/CORE\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Perl/lib/5.10\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Printers/Libraries\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTime3GPP.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeComponents.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeFireWireDV.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeH264.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeH264.component/Contents/Resources\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeImporters.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeMPEG.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeMPEG4.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeStreaming.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/QuickTime/QuickTimeVR.component/Contents/MacOS\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/expect5.45\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Ffidl0.6.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Img1.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/itcl3.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/itk3.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Memchan2.2.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Mk4tcl2.4.9.7\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/QuickTimeTcl3.2\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/snack2.2\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tbcload1.7\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tclAE2.0.5\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclapplescript1.0\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tcldom2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tcldomxml2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclexpat2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclresource1.1.2\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tclx8.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclxml2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tclxslt2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tdom0.8.3\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/thread2.6.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Tktable2.10\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tls1.6.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/tnc0.3.0\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/treectrl2.2.10\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/Trf2.1.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/vfs1.4.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.4/xotcl1.6.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/expect5.45\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Ffidl0.6.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Img1.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/itcl3.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/itk3.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Memchan2.2.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Mk4tcl2.4.9.7\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tbcload1.7\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tclAE2.0.5\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tcldom2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tcldomxml2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tclexpat2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tclx8.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tclxml2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tclxslt2.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tdom0.8.3\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/thread2.6.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Tktable2.10\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tls1.6.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/tnc0.3.0\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/Trf2.1.4\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/vfs1.4.1\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/8.5/xotcl1.6.6\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3\"",
+				);
+				PRODUCT_NAME = AddToCouch;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B8FEDF11484B82400C1EF0E /* Build configuration list for PBXProject "AddToCouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8FEE161484B82500C1EF0E /* Debug */,
+				9B8FEE171484B82500C1EF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8FEE181484B82500C1EF0E /* Build configuration list for PBXNativeTarget "AddToCouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8FEE191484B82500C1EF0E /* Debug */,
+				9B8FEE1A1484B82500C1EF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B8FEDEE1484B82400C1EF0E /* Project object */;
+}

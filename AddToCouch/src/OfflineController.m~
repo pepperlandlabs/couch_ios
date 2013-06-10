@@ -1,0 +1,10 @@
+
+@implementation OfflineController 
+
+@synthesize offlineMovies;
+
+-(NSMutableArray)getOfflineMovies {
+}
+
+-(void)downloadMovie:(NSObject *)movie {
+}

@@ -1,0 +1,7 @@
+
+
+@interface OfflineController {
+}
+
+-(NSMutableArray *)getOfflineMovies;
+-(void)downloadMovie:(NSObject *)movie;
